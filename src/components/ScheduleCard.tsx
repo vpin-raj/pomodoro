@@ -1,5 +1,4 @@
-import React from "react";
-import { Box, Icon, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import AlarmOnIcon from "@mui/icons-material/AlarmOn";
 
 export interface IScheduleCard {

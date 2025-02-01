@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import { useCallback, useState } from "react";
 import { ThemeColors } from "../Theme/ThemeColors";
 import { Box } from "@mui/material";
 
@@ -7,13 +7,11 @@ export interface IColorPalletsProps {
 }
 export const ColorPallets = (props: IColorPalletsProps) => {
   const { setTheme } = props;
-  const [pallet, setPallet] = useState(ThemeColors);
-  const [themeId, setThemeId] = useState(0);
+  const [pallet] = useState(ThemeColors);
 
   const handleOnClick = useCallback(
     (id: number) => {
       setTheme(id);
-      setThemeId(id);
     },
     [setTheme]
   );

@@ -1,4 +1,3 @@
-import React from "react";
 import { ProgressCard } from "./ProgressCard";
 import { Box, Typography } from "@mui/material";
 import { Scheduler } from "../const/Scheduler";

@@ -1,5 +1,5 @@
 import Grid from "@mui/material/Grid2";
-import React, { ReactElement } from "react";
+import { ReactElement } from "react";
 import { ColorPallets } from "../components/ColorPallets";
 import TipsAndUpdatesIcon from "@mui/icons-material/TipsAndUpdates";
 import { CircleWrapper } from "../components/common/CircleWrapper";

@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import { useCallback, useState } from "react";
 import { Scheduler } from "../const/Scheduler";
 import { ScheduleCard } from "./ScheduleCard";
 import { Box, Typography } from "@mui/material";
